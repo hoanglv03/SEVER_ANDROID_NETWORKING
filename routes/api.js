@@ -5,7 +5,7 @@ var mdw = require('../middlewares/api.auth')
 //Product
 router.get('/listProduct'   ,apiSever.listProduct);
 router.post('/addProduct',apiSever.addProduct);
-router.post('/seachProduct',apiSever.seachProduct);
+router.post('/searchProduct',apiSever.seachProduct);
 router.put('/updateProduct/:id',apiSever.updateProduct);
 router.delete('/deleteProduct/:id',apiSever.deleteProduct);
 
